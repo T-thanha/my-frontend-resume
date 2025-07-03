@@ -1,0 +1,11 @@
+@import "https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap";
+@import "tailwindcss";
+@import "primeicons/primeicons.css";
+@theme {
+  --font-custom: "Dank Mono", bold;
+  --font-custom1: "Cascadia Code", bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
