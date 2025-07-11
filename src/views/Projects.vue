@@ -1,5 +1,5 @@
 <script setup>
-import Projects from "../ProjectsPage/Projects.vue";
+import Projects from "../projectspage/body.vue";
 import Header from "../Header/Header.vue";
 import Footer from "../Footer/Footer.vue";
 </script>

@@ -7,7 +7,7 @@ import Button from "../../ElementUserInterfaceComponent/Button.vue";
   >
     <img
       class="w-40 h-40 hover:scale-110 hover:-rotate-10 hover:shadow-md shadow-sky-700 transition-tranform duration-300 rounded-full"
-      src="/picon.JPG"
+      src="/picon.png"
       alt="Logo"
     />
     <div
