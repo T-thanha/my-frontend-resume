@@ -1,9 +1,34 @@
 @import "https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap";
 @import "tailwindcss";
 @import "primeicons/primeicons.css";
+
+@font-face {
+  font-family: "Dank Mono";
+  src: url("/DankMono-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dank Mono";
+  src: url("/DankMono-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dank Mono";
+  src: url("/DankMono-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
-  --font-custom: "Dank Mono", bold;
-  --font-custom1: "Cascadia Code", bold;
+  --font-custom: "Dank Mono", monospace;
+  --font-custom1: "Cascadia Code", monospace;
 }
 
 html {
