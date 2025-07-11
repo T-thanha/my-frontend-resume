@@ -2,11 +2,11 @@
 <template>
   <div class="p-2 w-full sticky top-3">
     <div
-      class="flex flex-row items-center gap-4 px-4 border-1 border-blue-200/50 rounded-md shadow-lg w-full h-15 shadow-gray-800/50 hover:shadow-gray-900/50 transition-shadow duration-300 backdrop-blur-md"
+      class="flex flex-row items-center gap-4 px-4 border-1 border-blue-200/50 rounded-md shadow-lg w-full h-12 shadow-gray-800/50 hover:shadow-gray-900/50 transition-shadow duration-300 backdrop-blur-md"
     >
       <img
-        class="w-10 h-10 rounded-full active:rotate-360 transition-transform duration-300"
-        src="/picon.JPG"
+        class="w-8 h-8 rounded-full hover:scale-110 transition-all duration-300 ease-in-out"
+        src="/picon.png"
         alt="Logo"
       />
       <p
@@ -14,7 +14,9 @@
       >
         <router-link to="/">Thanakrit</router-link>
       </p>
-      <div class="flex flex-row items-start gap-2 ml-auto max-md:hidden">
+      <div
+        class="flex flex-row items-start gap-2 ml-auto max-md:overflow-scroll"
+      >
         <router-link
           to="/projects"
           class="font-custom text-sm text-gray-400 hover:bg-gray-900 transition-tranform duration-300 hover:text-pink-200 transition-color duration-300 px-4 py-2 rounded-md hover:cursor-pointer"
@@ -22,12 +24,12 @@
           Project
         </router-link>
         <a
-          href="https://github.com/T-thanha"
+          href="https://fastwork.co/user/thanakri_t?source=web_marketplace_profile-menu_profile"
           target="_blank"
           rel="noopener noreferrer"
           class="font-custom text-sm text-gray-400 hover:bg-gray-900 transition-tranform duration-300 hover:text-pink-200 transition-color duration-300 px-4 py-2 rounded-md hover:cursor-pointer"
         >
-          Github
+          Fastwork
         </a>
         <a
           href="https://youtube.com/@thanakrit3823"
@@ -37,16 +39,6 @@
         >
           Youtube
         </a>
-      </div>
-      <div class="md:hidden ml-auto">
-        <button
-          class="items-center justify-center font-custom text-sm text-gray-400 hover:bg-gray-900 transition-tranform duration-300 hover:text-pink-200 transition-color duration-300 px-4 py-2 rounded-md hover:cursor-pointer border-1 border-gray-600/50"
-          id="menu-button"
-          aria-expanded="false"
-          aria-haspopup="true"
-        >
-          <span class="pi pi-bars"></span>
-        </button>
       </div>
     </div>
   </div>
